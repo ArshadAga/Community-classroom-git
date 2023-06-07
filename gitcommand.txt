@@ -1,0 +1,19 @@
+mkdir <folder name> :- to create directory or folder 
+rm -r <file> :- to remove 
+touch <file name> :- to create a file
+vi <file name> :- to edit or write something in the file
+cat <file name> :- to view the file content
+
+git init :- to initialize the repository as a git
+git add <file> :- to add the file from unstage to staging area
+git add . :- to add all the file 
+git commit -m 'message' :- to commit the file from the staging area and give the message why it has been commited
+git status ;- to check the status of git
+git restore --staged <file name> :- to restore from the stage area if not commit
+git log :- to check the history of the git
+git rm <file name> :- to remove file which has been deleted and next step will be to commit why it has been removed message
+git reset <commited number from the git log> :- to reset or restore the commit
+git stash :- will move current unstaged or stage to save somewhere to use after some time
+git stash pop :- will bring back the stashed 
+git stash clear :- it will remove all the save stashed data 
+git remote add origin <url> :- remote means working with url, add means adding new url, origin will be what is the name of the url you are going to add 
