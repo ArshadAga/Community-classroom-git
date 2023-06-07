@@ -16,4 +16,6 @@ git reset <commited number from the git log> :- to reset or restore the commit
 git stash :- will move current unstaged or stage to save somewhere to use after some time
 git stash pop :- will bring back the stashed 
 git stash clear :- it will remove all the save stashed data 
-git remote add origin <url> :- remote means working with url, add means adding new url, origin will be what is the name of the url you are going to add 
+git add remote origin <url> :- remote means working with url, add means adding new url, origin will be what is the name of the url you are going to add 
+git push origin master:- git push will push the repo to the origin(git) master is the branch name online
+
